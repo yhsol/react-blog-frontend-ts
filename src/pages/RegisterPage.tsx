@@ -1,0 +1,14 @@
+import React from "react";
+import AuthTemplate from "../components/auth/AuthTemplate";
+import AuthForm from "../components/auth/AuthForm";
+import RegisterForm from "../containers/RegisterForm";
+
+function RegisterPage() {
+  return (
+    <AuthTemplate>
+      <RegisterForm />
+    </AuthTemplate>
+  );
+}
+
+export default RegisterPage;
